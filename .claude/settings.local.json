@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(npm start)",
+      "Bash(timeout 5 bash:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(npm install:*)",
+      "Bash(timeout 2 bash:*)",
+      "Bash(dir /B:*)",
+      "Bash(dir \"C:\\Users\\SRIRAM\\Downloads\\EDVIEWFINALFILE\\workspace\\EdView\")",
+      "Bash(dir \"C:\\Users\\SRIRAM\\Downloads\\EDVIEWFINALFILE\\workspace\\EdView\\Edview\" /s /b)",
+      "Bash(cmd //c taskkill //PID 23800 //F)",
+      "Bash(cmd //c taskkill //PID 24156 //F)",
+      "Bash(timeout:*)",
+      "Bash(dir \"C:\\Users\\SRIRAM\\Downloads\\EDVIEWFINALFILE\\workspace\\EdView\" /s /b)",
+      "Bash(powershell -Command \"Get-ChildItem -Recurse -Path . | Select-Object FullName\")",
+      "Bash(cmd //c dir /B)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
